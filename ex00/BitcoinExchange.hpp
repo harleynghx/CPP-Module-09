@@ -7,6 +7,7 @@
 
 class BitcoinExchange {
 private:
+    //dictionary, _databass is the name 
     std::map<std::string, float> _database;
     bool isValidDate(const std::string& date) const;
     bool isValidValue(const std::string& value, float& valOut) const;
